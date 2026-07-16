@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer terminal window glow outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.4"
+        android:pathData="M16,16h76v76h-76z" />
+
+    <!-- Terminal title bar line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.3"
+        android:pathData="M16,28h76" />
+
+    <!-- Three window dots in top-left -->
+    <path
+        android:fillColor="#00E5FF"
+        android:fillAlpha="0.5"
+        android:pathData="M23,22m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0 M29,22m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0 M35,22m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <!-- Chevron Prompt: > -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M28,38 L52,54 L28,70 L34,75 L63,54 L34,33 Z" />
+
+    <!-- Cursor Underscore: _ -->
+    <path
+        android:fillColor="#D500F9"
+        android:pathData="M58,64 L78,64 L78,72 L58,72 Z" />
+</vector>
